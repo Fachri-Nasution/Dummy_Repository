@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Presentasi dengan Reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				
+				<!-- SLIDE KE-1 -->
+				<section>
+					<p>Judul Proyek </p>
+					<p>Sistem Penyewaan Lapangan</p>
+				</section>
+
+				<!-- SLIDE KE-2 -->
+				<section>Manfaat dan Tujuan Aplikasi</section>
+
+				<!-- SLIDE KE-3 -->
+				<section data-background="#FFEFD8">
+						<p style="color: brown; font-size: 50px; font-weight: bold;">Prototype Halaman Pendaftaran Lapangan</p>
+						<img src="Prototype\Daftar_Lapangan.png">
+						<p style="color: saddlebrown; font-size: 25px; font-weight: bold;">Fitur ini digunakan agar para pemilik lapangan dapat mendaftarkan usaha mereka kedalam sistem.</p>
+				</section>
+
+				<!-- SLIDE KE-4 -->
+				<section>Slide 4</section>
+
+				<!-- SLIDE KE-5 -->
+				<section>Slide 5</section>
+
+				<!-- SLIDE KE-i -->
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
